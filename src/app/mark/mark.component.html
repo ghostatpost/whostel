@@ -1,0 +1,47 @@
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script>
+
+</script>
+
+</head>
+<!--THIS IS THE HEAD NAVIGATION-->
+<div id="header">
+   <ul>
+     <span id="logo">Whostel</span>
+   <li><a href="#"> login </a></li >
+   <li><a href="#"> signup </a></li> 
+   <li><a href="#">about us </a></li>
+   </ul>
+</div>
+<!--END OF NAVIGATION AND THE LOGO-->
+
+
+<!--FOR SLIDESHOW CONTENT-->
+<!--<div id="slide">
+ <ngb-carousel *ngIf="images">
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[0]" alt="Random first slide">
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[1]" alt="Random second slide">
+       </div>
+  </ng-template>-->
+<!--END OF SLIDESHOW CONTENT-->
+
+
+
+<!--MAIN CONTENT-->
+<div id="main">
+ <div id="col" *ngFor="let nm of nam">
+   <h4>{{nm.name}}</h4>
+  </div>
+</div>
+<!--END OF MAIN CONTENT-->
