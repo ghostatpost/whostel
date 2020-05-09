@@ -48,7 +48,8 @@ div#main {
 
 }
 div#col{
+  margin-left:8% ;
   float:left ;
-  width:33.33% ;
-  height:200px;
+  width:25% ;
+  height:300px;
 }

@@ -42,9 +42,10 @@
 
 <div id="main">
  <div id="col" *ngFor="let nm of nam">
-   <img src="{{nm.image}}" style="height:150px;width:150px;" class="center">
-   <h4 style="text-align:center">{{nm.name}} <br>
-    <ngb-rating rate="{{nm.rate}}" [readonly]="true" [max]="5" style="margin-left:30px ;"></ngb-rating></h4>
+   <img src="{{nm.image}}" style="height:150px;width:150px; position:justify" class="center">
+   <h4 style="position:justify">{{nm.name}}
+    </h4>
+  <h3><ngb-rating rate="{{nm.rate}}" [readonly]="true" [max]="5" ></ngb-rating></h3>
    
      
   </div>
